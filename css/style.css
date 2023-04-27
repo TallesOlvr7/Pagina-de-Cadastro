@@ -1,0 +1,178 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-btn-hover: #c7bea4;
+    --cor-clara: white;
+    --cor-fundo: #2C3639;
+    --cor-esquerda: #3F4E4F;
+    --font-texto: 'Lato', sans-serif;
+    --cor-input: #3f4e4fd0;
+    --cor-btn:#dad0b5;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo);
+}
+
+.login-container{
+    width: 87%;
+    height: 85vh;
+}
+
+.logo-img{
+    height: 65vh;
+}
+
+.container-left{
+    background-color: var(--cor-esquerda);
+    height: 100%;
+    border-radius: 3.5% 0 0 3.5%;
+}
+
+.texto-esquerdo{
+    color: var(--cor-clara);
+    font-family: var(--font-texto);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 0.1;
+}
+
+.container-right{
+    border-radius: 0 3.5% 3.5% 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor-clara);
+}
+
+.btn-container{
+    width: 100%;
+}
+
+.conteudo-direito{
+    width: 60%;
+    height: 70%;
+    border-radius: 3.5%;
+}
+
+.div-formulario{
+    width: 100%;
+}
+
+.texto-login{
+    color: var(--cor-fundo);
+    font-family: var(--font-texto);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.borda-input{
+    border: 1px solid var(--cor-fundo);
+}
+
+.botao{
+    background-color: var(--cor-btn);
+    border: none;
+    color: var(--cor-fundo);
+    font-weight: 700;
+    width: 70%;
+}
+
+.botao:hover{
+    background-color: var(--cor-btn-hover);
+}
+
+.image-formulario{
+    display: none;
+}
+
+@media screen and (max-width:1060px){
+    .formulario{
+        width: 100%;
+    }
+
+    .texto-login{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:930px){
+
+    .formulario{
+        height: 80%;
+        width: 100%;
+    }
+    
+    .input-div{
+        width: 100%;
+    }
+
+    .borda-input{
+        width: 70%;
+        margin: 1% 0;
+    }
+
+    .texto-login{
+        font-size: 2rem;
+    }
+
+    .container-left{
+        display: none;
+    }
+
+    .container-right{
+        border-radius: 3.5%;
+    }
+
+    .conteudo-direito{
+        height: 100%;
+    }
+
+    .image-formulario{
+        display: BLOCK;
+        height: 30%;
+    }
+
+    .botao{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:491px){
+    .texto-login{
+        font-size: 1.5rem;
+    }
+
+    .botao{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:368px){
+    .texto-login{
+        font-size: 1.3rem;
+    }
+    
+}
+
+/* Aqui acaba a parte de CADASTRO */
+
+/* -------------------------------------------------------------------------------------*/
+
+/* Começa a parte de Login */
+
+
+
+
+
+
